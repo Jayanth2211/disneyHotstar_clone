@@ -17,7 +17,7 @@ let SinglePage=()=>{
        
        useEffect(()=>{
         let fetchData=async()=>{
-          let res=await axios.get('http://localhost:5001/items')
+          let res=await axios.get('https://disneyhotstar-clone.onrender.com/items')
           setProduct(res.data)
          
         }
