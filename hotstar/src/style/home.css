@@ -79,6 +79,7 @@ a{
 
 .movies{
     margin-right: 30px;
+   
     display: inline-block;
    
     
@@ -102,8 +103,11 @@ display: none;
 
 
 .movies:hover{
-   position: sticky;
-   z-index: 1;
+  
+   z-index: 3;
+   
+  
+position: relative;
    transform: scaleX(1.8);
    transition: 1s;
   
