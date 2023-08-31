@@ -10,6 +10,10 @@
     height: 600px;
     background-color: rgba(0, 0, 0, 0.548);   
 }
+marquee{
+    color: white;
+    font-weight: bolder;
+}
 
 
 .round{

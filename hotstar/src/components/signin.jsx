@@ -59,6 +59,7 @@ else{
     return(
         <div className="loginpage">
             <div className="box">
+            <marquee behavior=""  direction="">Please wait!! fetching data will take some time</marquee>
             
             <div className="round">
                  <img src={hotstar} alt="" className='hotstar' height={70} width={70}/>
