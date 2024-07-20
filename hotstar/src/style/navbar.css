@@ -1,6 +1,6 @@
 .navabar{
     width: 100px;
-    background-color: black;
+    background-color: red;
     display: inline-block;
     position: fixed;
     z-index: 1;
