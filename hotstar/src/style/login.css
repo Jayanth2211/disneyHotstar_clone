@@ -20,7 +20,7 @@ marquee {
 /* Styles for desktop */
 .round {
     background-color: #000027;
-    padding: 3% 0;
+    padding: 4% 0;
     margin-left: 45%;
     border: 2px solid white;
     width: 8%;
@@ -28,7 +28,7 @@ marquee {
 }
 
 .loginpage .hotstar {
-    
+
     margin: 0 0 0 16%;
 }
 
