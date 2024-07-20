@@ -20,6 +20,13 @@ marquee {
 /* Styles for desktop */
 .round {
     background-color: #000027;
+    
+    margin-left: 45%;
+    border: 2px solid white;
+    width: 8%;
+    border-radius: 60%;
+
+    background-color: #000027;
     padding: 1% 0;
     margin-left: 45%;
     border: 2px solid white;
@@ -61,12 +68,12 @@ marquee {
 @media (max-width: 600px) {
     .round {
         margin-left: auto;
-        padding: 2%;
+        padding: 4%;
         margin-right: auto;
         width: 23%;
     }
 
-    
+
     .loginpage .hotstar {
         margin: 0 auto;
     }
