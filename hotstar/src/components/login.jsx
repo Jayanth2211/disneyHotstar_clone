@@ -37,7 +37,25 @@ let Login=()=>{
     
     return(
         <div className="loginpage">
-          gjgg h
+            <div className="box">
+                <marquee behavior=""  direction="">Please wait!! fetching data will take some time</marquee>
+            
+            <div className="round">
+                 <img src={hotstar} alt="" className='hotstar' height={70} width={70}/>
+                 </div>
+
+        
+           <div className="login">
+                 <form action="" onSubmit={Submit}>
+              <input type="tel" ref={Phno} pattern='[0-9]{10}' placeholder='phone number'/>
+                <input type="text" ref={pswd} placeholder='password'/>
+                
+                <button>Get Started</button><br />
+                <Link to="/signUp">SignUp</Link>
+                
+               </form>
+            </div>
+            </div>
        
         </div>
           
