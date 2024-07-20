@@ -64,7 +64,7 @@ marquee {
     font-weight: bold;
 }
 
-/* Styles for smartphones */
+/*  Styles for smartphones  */
 @media (max-width: 600px) {
     .round {
         margin-left: auto;
