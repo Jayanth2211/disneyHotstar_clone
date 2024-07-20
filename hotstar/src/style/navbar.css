@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 1;
    text-align: center;
-   border-right: solid 2px red;
+   border-right: solid 2px #000080 ;
    
 }
 .navabar p{

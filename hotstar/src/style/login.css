@@ -80,7 +80,7 @@ marquee {
     }
 
     .login button {
-        width: 100%;
-        margin-left: 0;
+        width: 70%;
+        margin-top:1%;
     }
 }
