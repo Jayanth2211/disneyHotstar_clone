@@ -1,12 +1,12 @@
 .navabar{
     width: 100px;
-    background-color: red;
+    background-color: black;
     display: inline-block;
     position: fixed;
     z-index: 1;
    text-align: center;
+   
 }
-
 .navabar p{
     background-color:#333333;
     color: goldenrod;
