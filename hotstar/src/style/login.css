@@ -1,11 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
 .loginpage {
     background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
     background-position: center;
     background-size: cover;
     width: 100%;
-    z-index: 2;
-    padding: 20px; /* Add some padding to prevent content from touching edges */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 marquee {
@@ -16,15 +27,16 @@ marquee {
 .box {
     max-width: 600px;
     background-color: rgba(0, 0, 0, 0.548);
-    margin: 0 auto; /* Center the box */
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
     border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .round {
     background-color: #000027;
     padding: 1%;
-    margin: 0 auto; /* Center the round div */
+    margin: 20px auto;
     border: 2px solid white;
     width: 70px;
     height: 70px;
@@ -35,50 +47,61 @@ marquee {
 }
 
 .loginpage .hotstar {
-    max-width: 100%; /* Ensure the image fits within the container */
+    max-width: 100%;
     max-height: 100%;
 }
 
 .login {
     background-color: #1a1a1ac4;
-    width: 100%; /* Make it full width */
-    max-width: 400px; /* Max width for larger screens */
-    margin: 20px auto 0 auto; /* Center the login form */
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .login input {
     margin: 10px 0;
     border: none;
-    width: 70%; /* Full width */
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.login button {
+.password-button-container {
+    display: flex;
+    width: 100%;
+}
+
+.password-button-container input {
+    flex: 1;
+}
+
+.password-button-container button {
     background-color: #cc0000;
     color: white;
     border: none;
     padding: 10px;
-    width: 25%; /* Full width */
     cursor: pointer;
-    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .login a {
     text-decoration: none;
     font-weight: bold;
-    display: block; /* Make it a block element for better spacing */
+    display: block;
     text-align: center;
     margin-top: 10px;
 }
 
-/* Media Queries for Responsive Design */
-
 @media (max-width: 600px) {
     .box {
-        width: 100%; /* Full width on small screens */
         padding: 10px;
     }
 
@@ -92,10 +115,12 @@ marquee {
         padding: 10px;
     }
 
-    .login input{
-        width: 70%;
+    .password-button-container {
+        flex-direction: column;
     }
-    .login button {
-        width: 25%;
+
+    .password-button-container button {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
