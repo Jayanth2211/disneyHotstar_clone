@@ -92,8 +92,10 @@ marquee {
         padding: 10px;
     }
 
-    .login input,
+    .login input{
+        width: 70%;
+    }
     .login button {
-        width: 100%;
+        width: 25%;
     }
 }
