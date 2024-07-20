@@ -51,7 +51,7 @@ marquee {
 .login input {
     margin: 10px 0;
     border: none;
-    width: 100%; /* Full width */
+    width: 70%; /* Full width */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -61,7 +61,7 @@ marquee {
     color: white;
     border: none;
     padding: 10px;
-    width: 100%; /* Full width */
+    width: 25%; /* Full width */
     cursor: pointer;
     margin-top: 10px;
 }
