@@ -54,3 +54,38 @@
   
     color:darkgray;
   }
+  
+
+  @media (max-width: 600px) {
+    .navabar {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        border-right: none;
+        border-top: solid 2px #000080;
+    }
+
+    .parentlink {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navabar .link {
+        margin: 10px 0;
+    }
+
+    .link #linkname {
+        display: none;
+    }
+
+    .link:hover #linkname {
+        display: inline;
+        font-size: 12px;
+        color: white;
+    }
+
+    .link:hover #symbol {
+        color: white;
+    }
+}
