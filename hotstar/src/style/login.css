@@ -23,6 +23,8 @@ marquee {
     
     margin-left: 45%;
     border: 2px solid white;
+    height: 18%;
+    padding: 10px;
     width: 8%;
     border-radius: 60%;
 
@@ -69,7 +71,7 @@ marquee {
     width: 8%;
     border-radius: 60%;
 }
-    }
+    
 
 
     .loginpage .hotstar {
