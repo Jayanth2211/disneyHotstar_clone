@@ -65,4 +65,8 @@
     .movies .moviDetails p {
         font-size: 0.8rem;
     }
+    .movies{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
