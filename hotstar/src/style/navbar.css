@@ -76,7 +76,11 @@
         margin: 10px 0;
     }
 
-    
+    .link #linkname {
+        display: none;
+    }
+
+   
 
     .link:hover #symbol {
         color: white;

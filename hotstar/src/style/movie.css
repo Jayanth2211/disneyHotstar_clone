@@ -18,8 +18,67 @@
     margin-left: 140px;
 }
 
-
 @media (max-width: 600px) {
+    .type img {
+        height: 80px;
+        width: 150px;
+    }
+
+    .moviesField {
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+    }
+
+    .details img {
+        height: 50px;
+        width: 150px;
+    }
+
+    .details h5, .details p, .details h6 {
+        font-size: 0.9rem;
+    }
+
+    .details button {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .text-white {
+        font-size: 1.5rem;
+    }
+
+    .movies {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .iii img {
+        height: 120px;
+        width: 150px;
+    }
+
+    .moviDetails {
+        min-width: 150px;
+    }
+
+    .moviDetails h6 {
+        font-size: 0.8rem;
+    }
+
+    .moviDetails p {
+        font-size: 0.8rem;
+    }
+}
+
+/* @media (max-width: 600px) {
     .type img {
         height: 80px;
         width: 150px;
@@ -69,4 +128,4 @@
     .tt{
         display: flex;
     }
-}
+} */
