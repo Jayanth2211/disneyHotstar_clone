@@ -79,11 +79,11 @@ let Home=()=>{
           
             <div className="ads">
                 <div className="adsImage">
-                   <img src='https://shifu.hotstarext.com/SOURCE/VOD/cd-2023-08-17/Chandrayaan3CS_deskXbb-d88b18d7-cdc5-4371-a822-33a198ad0d47.jpg' alt="" />
+                   <img src='https://shifu.hotstarext.com/SOURCE/VOD/cd-2023-08-17/Chandrayaan3CS_deskXbb-d88b18d7-cdc5-4371-a822-33a198ad0d47.jpg' alt="" height={260} width={650}/>
                 </div>
                 <div className="det">
                     <div className="withBlueAds">
-                       <div className="div"><img src={infinix} alt="" /></div>
+                       <div className="div"><img src={infinix} alt="" height={45} width={50} /></div>
                        <div className="div ms-1">
                         <span id="head">CHANDRAYANA 3</span>
                         <span className="text-secondary">Count down to history</span>
@@ -159,7 +159,7 @@ play_arrow
         
        <div className="iii">
        <Link to={`/singlePage/${x.id}`}><div class="carousel-item active">
-       <img src={x.image} class="moviImage d-block" alt="..."  />
+       <img src={x.image} class="moviImage d-block" alt="..." height={190} width={195} />
     <div class="tt carousel-caption d-none d-md-block">
       <img id="tato" src={x.imgtitle} alt="" height={50}  width={110}/>
        </div>
