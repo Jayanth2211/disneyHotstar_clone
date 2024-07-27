@@ -24,9 +24,9 @@ let Search=()=>{
     const [searchValue, setSearchValue] = useState('');
     
     const filteredData=items.filter(item=>(
-      item.title.toLowerCase().includes(searchValue) ||
-      item.type.toLowerCase().includes(searchValue) ||
-      item.field.toLowerCase().includes(searchValue) 
+      item.title.toLowerCase().includes(searchValue.toLocaleLowerCase()) ||
+      item.type.toLowerCase().includes(searchValue.toLocaleLowerCase()) ||
+      item.field.toLowerCase().includes(searchValue.toLocaleLowerCase()) 
     ))
 
  
