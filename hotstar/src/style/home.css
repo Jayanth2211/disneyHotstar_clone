@@ -168,9 +168,10 @@ position: relative;
 }
 
 
+
 @media (max-width: 600px) {
 .movies {
-    display: flex;
+    display: inline;
     overflow-x: auto;
     flex-wrap: nowrap;
     gap: 1rem;
