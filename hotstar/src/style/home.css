@@ -182,13 +182,13 @@ position: relative;
     }
 
     .ads img {
-        width: 100%;
+        width: 70%;
         height: auto;
     }
 
     .det {
         padding: 10px;
-        width: 100%;
+        width: 30%;
     }
 
     #carouselExampleAutoplaying .details {

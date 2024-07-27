@@ -56,7 +56,7 @@
     color:darkgray;
   }
   
-  
+
 
   @media (max-width: 600px) {
     .navabar {
@@ -78,7 +78,7 @@
     }
 
     .link #linkname {
-        display: none;
+        visibility: hidden;
     }
 
     
