@@ -204,7 +204,7 @@ position: relative;
 
     .movies {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         flex: 0 0 auto;
     }
