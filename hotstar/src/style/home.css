@@ -176,12 +176,13 @@ position: relative;
     }
 
     .ads {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         align-items: flex-start;
         width: 100%;
     }
 
-    .ads img {
+    .ads .adsImage img {
         width: 70%;
         height: auto;
     }
@@ -189,8 +190,13 @@ position: relative;
     .det {
         padding: 10px;
         width: 30%;
+        height: auto;
     }
-
+    .det .withBlueAds img{
+        height: 45px;
+        width: 50px;
+        
+    }
     #carouselExampleAutoplaying .details {
         width: 100%;
         transform: translateY(0);
