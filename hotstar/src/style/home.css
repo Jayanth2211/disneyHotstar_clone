@@ -16,8 +16,6 @@ a{
    
 }
 .ads img{
-    height: 260px;
-    width: 650px;
     border-radius: 10px;
 }
 .det{
@@ -171,85 +169,11 @@ position: relative;
 
 
 @media (max-width: 600px) {
-    .home {
-        margin-left: 0;
-    }
-
-    .ads {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    .ads .adsImage img {
-        width: 70%;
-        height: auto;
-    }
-
-    .det {
-        padding: 10px;
-        width: 30%;
-        height: auto;
-    }
-    .det .withBlueAds img{
-        height: 45px;
-        width: 50px;
-        
-    }
-    #carouselExampleAutoplaying .details {
-        width: 100%;
-        transform: translateY(0);
-    }
-
-    .moviesList, .seriesList, .serialList, .sportsField {
-        display: flex;
-        overflow-x: auto;
-        flex-wrap: nowrap;
-        gap: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    
-    .movies {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        flex: 0 0 auto;
-    }
-
-    .movies .moviImage {
-        height: auto;
-        width: 100px;
-    }
-
-    .moviDetails {
-        width: 100px;
-        transform: none;
-        display: block;
-        color: white;
-        background-color: #0a0a0a;
-        padding: 5px;
-    }
-
-
-    .moviDetails h6, .moviDetails p {
-        font-size: 8px;
-    }
-
-    .moviDetails button {
-        width: 80px;
-        height: 30px;
-        font-size: 10px;
-    }
-
-    .moviDetails .btnRow {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .movies:hover {
-        transform: none;
-    }
+.movies {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
 }
