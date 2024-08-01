@@ -82,10 +82,7 @@ let Home=()=>{
 
            
 
-
-
-
-            
+  
 
  {/* carousel */}
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
