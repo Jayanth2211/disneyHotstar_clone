@@ -3,6 +3,7 @@ a{
 }
 .home{
     margin-left: 140px;
+    
 }
 
 .ads{
@@ -188,6 +189,8 @@ position: relative;
 @media screen and (max-width: 768px) {
     .home{
         margin-left: 0px;
+        width: 100%;
+        height: auto;
     }
 
     .ads {
