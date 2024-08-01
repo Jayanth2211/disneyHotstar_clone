@@ -181,41 +181,18 @@ position: relative;
 
 
 
-@media (max-width: 768px) {
-    .ads {
+@media (max-width: 600px) {
+    .ads{
         display: flex;
-        align-items: center;
-        background-color: #1a1919;
-        border-radius: 10px;
-        margin: 20px 0px;
-        color: white;
-        width: 1000px;
-       
     }
-
-    .det {
-        padding: 0;
-        width: 100%;
-    }
-
-    .withBlueAds {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .withBlueAds img {
-        width: 20%;
+    .adsImage{
+        flex: 1;
+        width: 70%;
         height: auto;
-       
+    }
+    .det{
+        width: 30%;
+        height: auto;
     }
 
-    .ads button {
-        width: 100%;
-        padding: 10px;
-        font-size: 5vw;
-    }
-
-    .withBlueAds #head {
-        font-size: 6vw;
-    }
 }
