@@ -205,7 +205,8 @@ position: relative;
 
     .withBlueAds img {
         width: 20%;
-        margin-bottom: 10px;
+        height: auto;
+       
     }
 
     .ads button {
