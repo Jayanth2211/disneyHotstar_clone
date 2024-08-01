@@ -21,7 +21,7 @@ a{
 .ads .adsImage img{
     width: 100%;
     height: auto;
-    border: 1px solid red;
+    border: 1px solid gold;
    
     border-radius: 10px;
 }
@@ -183,6 +183,10 @@ position: relative;
 
 
 @media screen and (max-width: 768px) {
+    .home{
+        margin-left: 0px;
+    }
+    
     .ads {
         flex-direction: row;
         flex-wrap: wrap; /* Content will wrap if necessary */
