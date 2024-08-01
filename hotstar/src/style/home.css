@@ -180,6 +180,7 @@ position: relative;
 }
 
 
+
 @media (max-width: 768px) {
     .ads {
         flex-direction: column;
