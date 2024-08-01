@@ -199,7 +199,7 @@ position: relative;
         padding: 0 10px;
         display: flex;
         justify-content: center;
-        width: 20%;
+        width: 100%;
     }
 
     .adsImage img {
@@ -216,6 +216,6 @@ position: relative;
 
 
     .withBlueAds img {
-        width: 10vw;
+        width: 15vw;
     }
 }
