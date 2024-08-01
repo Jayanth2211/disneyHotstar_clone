@@ -197,11 +197,12 @@ position: relative;
     }
 
 
-    
+
+
     .det {
         padding: 0 10px;
         display: flex;
-        justify-content: center;
+        justify-content:space-evenly;
         align-items: center;
         width: 100%;
     }
