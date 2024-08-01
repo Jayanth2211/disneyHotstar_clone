@@ -200,6 +200,7 @@ position: relative;
         padding: 0 10px;
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
     }
 
@@ -208,11 +209,12 @@ position: relative;
         height: auto;
     }
 
-    
+
     .ads button {
         width: 100%;
         padding: 10px;
         font-size: 16px;
+        margin-left: 2px;
     }
 
 
