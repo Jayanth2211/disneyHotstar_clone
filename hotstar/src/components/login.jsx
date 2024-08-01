@@ -42,7 +42,7 @@ let Login = () => {
 
                 <div className="logo">
                     <div class="round">
-                       <img src={hotstar} alt="" className='hotstar' height={70} width={70} />
+                      <img src={hotstar} alt=""  height={70} width={70} />
                     </div>
                 </div>
 
