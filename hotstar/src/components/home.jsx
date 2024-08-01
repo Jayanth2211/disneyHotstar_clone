@@ -76,7 +76,6 @@ let Home=()=>{
     return(
         <div className="home">
          
-          
             <div className="ads">
                 <div className="adsImage">
                    <img src='https://shifu.hotstarext.com/SOURCE/VOD/cd-2023-08-17/Chandrayaan3CS_deskXbb-d88b18d7-cdc5-4371-a822-33a198ad0d47.jpg' alt="" />
