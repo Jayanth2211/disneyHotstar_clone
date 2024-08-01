@@ -15,9 +15,14 @@ a{
     width: 1000px;
    
 }
-.ads .adsImag img{
-    height: 260px;
-    width: 650px;
+.adsImage{
+    flex: 1;
+}
+.ads .adsImage img{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+   
     border-radius: 10px;
 }
 .det{
@@ -33,6 +38,10 @@ a{
     display: block;
     font-weight: bolder;
     color: white;
+}
+.withBlueAds img{
+    width: 3vw;
+    height: auto;
 }
 .ads a{
     text-decoration: none;
