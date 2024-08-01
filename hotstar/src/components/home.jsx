@@ -77,12 +77,34 @@ let Home=()=>{
         <div className="home">
          
           
-        
+            <div className="ads">
+                <div className="adsImage">
+                   <img src='https://shifu.hotstarext.com/SOURCE/VOD/cd-2023-08-17/Chandrayaan3CS_deskXbb-d88b18d7-cdc5-4371-a822-33a198ad0d47.jpg' alt="" />
+                </div>
+                <div className="det">
+                    <div className="withBlueAds">
+                       <div className="div"><img src={infinix} alt="" height={45} width={50} /></div>
+                       <div className="div ms-1">
+                        <span id="head">CHANDRAYANA 3</span>
+                        <span className="text-secondary">Count down to history</span>
+
+                        
+                       </div>
+                       
+                    </div>
+                    
+                   <Link to='https://www.hotstar.com/in/clip/chandrayaan-3-countdown-to-history-promo/1260147552/watch'><button>Explore</button></Link>
+                   
+                </div>
+            </div>
            
 
            
 
-  
+
+
+
+            
 
  {/* carousel */}
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
