@@ -22,7 +22,7 @@ marquee {
     display: inline-block;
     background-color: #000027;
     border:1px solid white;
-    padding: 3%;
+    padding: 2%;
     border-radius: 55%;
     
 }
@@ -63,14 +63,19 @@ marquee {
 
 /*  Styles for smartphones  */
 @media (max-width: 600px) {
-    .round {
+    .round{
+        display: inline-block;
         background-color: #000027;
-    padding: 1% 0;
-    margin-left: 45%;
-    border: 2px solid white;
-    width: 23%;
-    border-radius: 55%;
-}
+        border:1px solid white;
+        padding: 2%;
+        border-radius: 55%;
+        
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
     
 
 
