@@ -190,7 +190,7 @@ position: relative;
 
     .ads {
         flex-direction: row;
-        flex-wrap: wrap; /* Content will wrap if necessary */
+        width: 100%; /* Content will wrap if necessary */
         padding: 10px;
     }
 
