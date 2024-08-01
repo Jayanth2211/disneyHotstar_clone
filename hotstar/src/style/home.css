@@ -21,7 +21,7 @@ a{
 .ads .adsImage img{
     width: 100%;
     height: auto;
-    border: 1px solid gold;
+    border: 1px solid red;
    
     border-radius: 10px;
 }
@@ -195,11 +195,11 @@ position: relative;
 
     .det {
         padding: 0 10px;
-        width: 30%;
+        width: 20%;
     }
 
     .adsImage img {
-        width: 60%;
+        width: 40%;
         height: auto;
     }
 
@@ -209,7 +209,7 @@ position: relative;
         font-size: 16px;
     }
 
-    
+
 
     .withBlueAds img {
         width: 10vw;
