@@ -67,9 +67,7 @@ marquee {
         display: inline-block;
         background-color: #000027;
         border:1px solid white;
-        padding: 6%;
-       
-        
+        padding: 6%;  
     }
     
     .logo{
