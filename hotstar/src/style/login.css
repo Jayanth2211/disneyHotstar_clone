@@ -64,11 +64,11 @@ marquee {
 /*  Styles for smartphones  */
 @media (max-width: 600px) {
     .round{
-        
+
         display: inline-block;
         background-color: #000027;
         border:1px solid white;
-        padding: 2%;
+        padding: 3%;
         border-radius: 55%;
         
     }
