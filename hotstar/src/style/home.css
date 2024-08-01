@@ -23,7 +23,8 @@ a{
 .ads .adsImage img{
     width: 100%;
     height: auto;
-    border: 1px solid red;
+    border-left:2px solid #000027;
+    border-right:2px solid ;
     border-radius: 10px;
 }
 .det{
