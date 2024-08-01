@@ -193,6 +193,7 @@ position: relative;
         flex-direction: column;
         width: 100%; /* Content will wrap if necessary */
         padding: 10px;
+        background-color: #1a1919cb;
     }
 
 
