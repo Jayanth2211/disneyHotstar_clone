@@ -21,7 +21,7 @@ a{
 .ads .adsImage img{
     width: 100%;
     height: auto;
-    border: 1px solid red;
+    border: 1px solid gold;
    
     border-radius: 10px;
 }
@@ -181,12 +181,35 @@ position: relative;
 
 
 
-@media (max-width: 600px) {
-.movies {
-    display: inline;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    gap: 1rem;
-    padding-bottom: 1rem;
-}
+@media (max-width: 768px) {
+    .ads {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .det {
+        padding: 0;
+        width: 100%;
+    }
+
+    .withBlueAds {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .withBlueAds img {
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
+    .ads button {
+        width: 100%;
+        padding: 10px;
+        font-size: 5vw;
+    }
+
+    .withBlueAds #head {
+        font-size: 6vw;
+    }
 }
