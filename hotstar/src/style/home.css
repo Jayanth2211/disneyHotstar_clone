@@ -63,7 +63,7 @@ a{
     border-radius: 4px;
 }
 .withBlueAds #ad{
-    background-color: goldenrod;
+    background-color: red;
     padding: 0px 3px;
     border-radius: 5px;
     margin-left: 5px;
@@ -180,30 +180,30 @@ position: relative;
 }
 
 
-@media (max-width: 600px) {
-    .ads{
-        display: flex;
-    align-items: center;
-    background-color: #1a1919;
-    border-radius: 10px;
-    margin: 20px 0px;
-    color: white;
-    width: 100%;
-    }
-    .adsImage{
-        flex: 1;
-    }
-    .ads .adsImage img{
-        width: 70%;
-        height: auto;
-        border: 1px solid gold;
-       
-        border-radius: 10px;
-    }
-    
-    .det{
-        padding: 0px 80px 0px 10px;
-        width: 30%;
+@media screen and (max-width: 768px) {
+    .ads {
+        flex-direction: row;
+        flex-wrap: wrap; /* Content will wrap if necessary */
+        padding: 10px;
     }
 
+    .det {
+        padding: 0 10px;
+        flex-basis: 100%;
+    }
+
+    .adsImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ads button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .withBlueAds img {
+        width: 10vw;
+    }
 }
