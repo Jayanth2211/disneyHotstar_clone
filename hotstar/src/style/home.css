@@ -144,21 +144,22 @@ a{
     }
     .movies .moviImage{
         border-top-left-radius:10px ;
-        width: 30%;
+        width: 40%;
         height: auto;
         
       }
 
 
       .movies:hover{
-        border: 1px solid red;
+        border: 1px solid goldenrod;
         .details{
+            width: 40%;
             display: none;
           }
       }
 
-      
       .details{
+        width: 40%;
         display: none;
       }
 
