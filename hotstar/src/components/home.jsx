@@ -158,9 +158,9 @@ play_arrow
         
        <div className="iii">
        <Link to={`/singlePage/${x.id}`}><div class="carousel-item active">
-       <img src={x.image} class="moviImage d-block" alt="..." height={190} width={195} />
+       <img src={x.image} class="moviImage d-block" alt="..."  />
     <div class="tt carousel-caption d-none d-md-block">
-      <img id="tato" src={x.imgtitle} alt="" height={50}  width={110}/>
+      <img id="tato" src={x.imgtitle} alt="" />
        </div>
        </div></Link>
        <div className="moviDetails">

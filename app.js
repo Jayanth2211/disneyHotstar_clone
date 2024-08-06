@@ -1,7 +1,7 @@
 const express=require('express')
 const mongose=require('mongoose')
 const app=express()
-var path = require('path');
+var  path = require('path');
 
 
 
