@@ -233,13 +233,17 @@ position: relative;
     .withBlueAds img {
         width: 15vw;
     }
+    .movies{
+        display: inline-block;
+        margin: 0px 5px;
+    }
     .movies .moviImage{
         border-top-left-radius:10px ;
-        width: 40%;
+        width: 30%;
         height: auto;
         
       }
       .movies:hover{
-        border: 1px solid goldenrod;
+        border: 1px solid blanchedalmond;
       }
 }
