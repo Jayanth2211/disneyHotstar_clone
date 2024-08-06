@@ -198,17 +198,7 @@ play_arrow
       <img id="tato" src={x.imgtitle} alt="" height={40}  width={90}/>
        </div>
        </div></Link>
-       <div className="moviDetails">
-      <div className="btnRow">
-      <Link to={`/singlePage/${x.id}`}><button id="btn"><span class="material-symbols-outlined">
-play_arrow
-</span>Watch Now</button></Link>  <button className="wishList" onClick={()=>addFav(x.title)}  >+</button>
-      </div>
-<h6 className="me-1">{x.year} 
-<span id="dot">&#9734; </span>  {x.otherDetails} <span id="dot">&#9734; </span> {x.language.total} Language</h6>
-<p>{x.description}</p>
-
-       </div> 
+       
       </div>
       </div>
     )
