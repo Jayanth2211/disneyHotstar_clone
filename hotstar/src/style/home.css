@@ -148,6 +148,7 @@ a{
         height: auto;
         
       }
+      
       .movies:hover{
         border: 1px solid goldenrod;
       }
