@@ -94,101 +94,6 @@ a{
 }
 
 
-.movies{
-    margin-right: 30px;
-   
-    display: inline-block;
-   
-}
-
-.moviDetails{
-    transform: translateY(250px);
-    width: 195px;
-display: none;
-    font-size: 12px;
-   
-}
-.movies .moviImage{
-  border-top-left-radius:10px ;
-  height: 190px;
-  width: 195px;
-  
-}
-.tt{
-    transform: translatey(25px);
-   }
-
-.tt #tato{
-    height: 50px;
-    width: 110px;
-}
-
-.movies:hover{
-  
-   z-index: 3;
-   
-  
-position: relative;
-   transform: scaleX(1.8);
-   transition: 1s;
-  
-   .moviImage{  
-       
-       transform: translatey(-90px);
-    
-   }
-   .tt #tato{
-    margin: 0px 0px 100px 85px;
-    height: 45px;
-    width: 75px;
-    
-    transition: 1s;
-  border: 0;
-   
-   }
-  
-   .moviDetails{
-        display: block;
-        color: white;
-        background-color: #0a0a0a;
-        transform: translateY(95px);
-        padding: 5px;
-        }
-} 
-.moviDetails p{
-    font-size: 8px;
-    font-weight: 100;
- }
-.moviDetails button{
-    background-color: white;
-    align-items: center;
-   width: 115px;
-    height: 37px;
-    color: black;
-    margin-top: 5px;
-    text-align: center;
-    border: none;
-    display: flex;
-    border-radius: 4px;
-}
-.moviDetails h6{
-    font-size: 10px;
-}
-.moviDetails .btnRow{
-    display: flex;
-    margin: 0px 0px 13px 0px;
-}
-
-.movies .wishList{
-    background-color: #242222;
-    color: white;
-    height: 40px;
-    margin: 5px 0px 0px 3px;
-    
-    font-size: 20px;
-    width: 30px;
-}
-
 
 
 @media screen and (max-width: 768px) {
@@ -233,7 +138,6 @@ position: relative;
     .withBlueAds img {
         width: 15vw;
     }
-    
     .movies{
         display: inline-block;
         margin: 0px 5px;
@@ -245,6 +149,6 @@ position: relative;
         
       }
       .movies:hover{
-        border: 1px solid blanchedalmond;
+        border: 1px solid goldenrod;
       }
 }
