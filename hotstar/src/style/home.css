@@ -235,4 +235,11 @@ position: relative;
     .withBlueAds img {
         width: 15vw;
     }
+    .movies .moviImage{
+        border-top-left-radius:10px ;
+        
+        width: 40%;
+        height: auto;
+        
+      }
 }
