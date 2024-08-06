@@ -141,11 +141,12 @@ a{
     .movies{
         display: inline-block;
         margin: 0px 5px;
+        width: 40%;
     }
 
 
 
-    
+
     .movies .moviImage{
         border-top-left-radius:10px ;
         width: 40%;
@@ -155,7 +156,7 @@ a{
 
 
       .movies:hover{
-        border: 1px solid goldenrod;
+        border: 1px solid red;
         .details{
             width: 40%;
             display: none;
