@@ -149,8 +149,14 @@ a{
         
       }
 
-      
+
       .movies:hover{
-        border: 1px solid goldenrod;
+        border: 1px solid red;
+        .details{
+            display: none;
+          }
+      }
+      .details{
+        display: none;
       }
 }
