@@ -250,5 +250,6 @@ position: relative;
       .moviesList{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
       }
 }
