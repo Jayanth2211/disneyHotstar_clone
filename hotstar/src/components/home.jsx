@@ -157,7 +157,7 @@ let Home = () => {
             return (
               <div className="movies">
 
-<img src={x.image} class="moviImage d-block" alt="..." />
+                   <img src={x.image} class="moviImage d-block" alt="..." />
               </div>
             )
           })
