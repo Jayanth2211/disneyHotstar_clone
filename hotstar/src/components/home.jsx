@@ -157,25 +157,7 @@ let Home = () => {
             return (
               <div className="movies">
 
-                <div className="iii">
-                  <Link to={`/singlePage/${x.id}`}><div class="carousel-item active">
-                    <img src={x.image} class="moviImage d-block" alt="..." />
-                    <div class="tt carousel-caption d-none d-md-block">
-                      <img id="tato" src={x.imgtitle} alt="" />
-                    </div>
-                  </div></Link>
-                  <div className="moviDetails">
-                    <div className="btnRow">
-                      <Link to={`/singlePage/${x.id}`}><button id="btn"><span class="material-symbols-outlined">
-                        play_arrow
-                      </span>Watch Now</button> </Link> <button className="wishList" onClick={() => addFav(x.title)} >+</button>
-                    </div>
-                    <h6 className="me-1">{x.year}
-                      <span id="dot">&#9734; </span>  {x.otherDetails} <span id="dot">&#9734; </span> {x.language.total} Language</h6>
-                    <p>{x.description}</p>
-
-                  </div>
-                </div>
+<img src={x.image} class="moviImage d-block" alt="..." />
               </div>
             )
           })
