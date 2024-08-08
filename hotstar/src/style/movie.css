@@ -15,7 +15,7 @@
     transform: scale(1.2);
     transition: 1s;
     position: relative;
-   border: 2px solid wheat;
+   border: 2px solid red;
     z-index: 1;
 }
 

@@ -244,7 +244,7 @@ position: relative;
     .movies .moviImage{
         border-top-left-radius:10px ;
         
-        width: 35vw;
+        width: 40vw;
 
         height: auto;
         
@@ -253,5 +253,5 @@ position: relative;
         display: inline-block;
         
       }
-      
+
 }
