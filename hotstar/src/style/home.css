@@ -244,13 +244,13 @@ position: relative;
     .movies .moviImage{
         border-top-left-radius:10px ;
         
-        width: 100%;
-        
+        width: 40vw;
+
         height: auto;
         
       }
       .movies{
         display: inline-block;
-        flex: 1;
+        
       }
 }
