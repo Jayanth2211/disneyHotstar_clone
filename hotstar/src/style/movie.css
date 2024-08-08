@@ -14,7 +14,7 @@
     transform: scale(1.2);
     transition: 1s;
     position: relative;
-   border: 2px solid goldenrod;
+   border: 2px solid blue;
     z-index: 1;
 }
 
@@ -23,7 +23,11 @@
 }
 
 
-/* @media (max-width: 600px) {
+
+
+
+
+@media (max-width: 600px) {
     .type img {
         height: 80px;
         width: 150px;
@@ -81,7 +85,7 @@
     .moviDetails p {
         font-size: 0.8rem;
     } 
-} */
+}
 
 /* @media (max-width: 600px) {
     .type img {
