@@ -15,7 +15,7 @@
     transform: scale(1.2);
     transition: 1s;
     position: relative;
-   border: 2px solid wheat;
+   border: 2px solid red;
     z-index: 1;
 }
 
@@ -62,30 +62,9 @@
         font-size: 1.5rem;
     }
 
-    .movies {
-        display: flex;
-        overflow-x: auto;
-        flex-wrap: nowrap;
-        gap: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .iii img {
-        height: 120px;
-        width: 150px;
-    }
-
-    .moviDetails {
-        min-width: 150px;
-    }
-
-    .moviDetails h6 {
-        font-size: 0.8rem;
-    }
-
-    .moviDetails p {
-        font-size: 0.8rem;
-    } 
+    
+   
+    
 }
 
 /* @media (max-width: 600px) {
