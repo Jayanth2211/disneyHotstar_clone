@@ -35,7 +35,7 @@ display: none;
  
   
    .moviImage{  
-    transform: translateY(-140px);
+    transform: translateY(-90px);
        
     
    }
@@ -56,8 +56,9 @@ display: none;
         color: white;
         width: 245px;
         background-color: #0a0a0a;
-        transform: translateY(35px);
+        transform: translateY(95px);
         padding: 5px;
+        position: fixed;
         }
 } 
 .moviDetail p{

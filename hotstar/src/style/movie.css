@@ -1,12 +1,13 @@
 .type img{
-    height: 120px;
-    width: 220px;
+    height: 95px;
+    width: 200px;
     border-radius: 5px;
     margin: 5px;
+    
 }
 
 .type{
-    margin:30px 0px 0px 0px;
+    margin:30px 0px 10px 0px;
 }
 
 .type img:hover{

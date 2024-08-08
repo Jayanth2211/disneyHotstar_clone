@@ -2,7 +2,8 @@ a{
     text-decoration: none;
 }
 .home{
-    
+    margin-left: 140px;
+    width: 89%;
     
 }
 
@@ -95,9 +96,11 @@ a{
 
 
 .movies{
-    /* margin-right: 30px; */
+    margin-right: 30px;
    
     display: inline-block;
+   
+    
    
 }
 
@@ -110,8 +113,8 @@ display: none;
 }
 .movies .moviImage{
     border-top-left-radius:10px ;
-    height: 190px;
-    width: 195px;
+    height: 180px;
+    width: 210px;
     
   }
 .tt{
@@ -130,12 +133,13 @@ display: none;
    
   
 position: relative;
-   transform: scaleX(1.8);
+   transform: scaleX(1.4);
    transition: 1s;
   
    .moviImage{  
-       
-       transform: translatey(-90px);
+    height: 170px;
+    width: 200px;
+       transform: translatey(-81px);
     
    }
    .tt #tato{
@@ -150,8 +154,10 @@ position: relative;
    .moviDetails{
         display: block;
         color: white;
+        width: 200px;
         background-color: #0a0a0a;
-        transform: translateY(95px);
+        transform: translateY(90px);
+        position: fixed;
         padding: 5px;
         }
 } 
@@ -240,5 +246,9 @@ position: relative;
         width: 40%;
         height: auto;
         
+      }
+      .movies{
+        display: flex;
+        flex-direction: row;
       }
 }

@@ -164,7 +164,7 @@ let Home = () => {
                       <img id="tato" src={x.imgtitle} alt="" />
                     </div>
                   </div></Link>
-                  {/* <div className="moviDetails">
+                  <div className="moviDetails">
                     <div className="btnRow">
                       <Link to={`/singlePage/${x.id}`}><button id="btn"><span class="material-symbols-outlined">
                         play_arrow
@@ -174,7 +174,7 @@ let Home = () => {
                       <span id="dot">&#9734; </span>  {x.otherDetails} <span id="dot">&#9734; </span> {x.language.total} Language</h6>
                     <p>{x.description}</p>
 
-                  </div> */}
+                  </div>
                 </div>
               </div>
             )
