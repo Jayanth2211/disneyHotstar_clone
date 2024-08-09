@@ -104,7 +104,9 @@ a{
     
    
 }
-
+.title{
+    display: none;
+}
 .moviDetails{
     transform: translateY(250px);
     width: 195px;
@@ -254,5 +256,8 @@ position: relative;
         margin-right: 5px;
         
       }
+      .title{
+        display: block;
+    }
 
 }

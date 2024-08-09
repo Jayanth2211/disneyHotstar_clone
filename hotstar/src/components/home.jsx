@@ -112,7 +112,7 @@ let Home = () => {
             movies.map((x) => {
               return (
                 <div class="carousel-item active">
-                  <img src={x.image} class="d-block " alt="..." height={500} width={1210} />
+                  <img src={x.image} class="d-block " alt="..." style={{width:"100%",height:"auto"}} />
                   <div class="details carousel-caption d-none d-md-block">
                     <img src={x.imgtitle} alt="" height={70} width={200} />
                     <h5 className="me-1">{x.year} * {x.otherDetails} *{x.language.total} Language</h5>
@@ -163,7 +163,9 @@ let Home = () => {
                     <div class="tt carousel-caption d-none d-md-block">
                       <img id="tato" src={x.imgtitle} alt="" />
                     </div>
-                  </div></Link>
+                  </div>
+                  <div className="title">
+                    <p>{x.title}</p></div></Link>
                   <div className="moviDetails">
                     <div className="btnRow">
                       <Link to={`/singlePage/${x.id}`}><button id="btn"><span class="material-symbols-outlined">

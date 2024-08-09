@@ -8,13 +8,9 @@
 }
 
 marquee {
-    color:chocolate;
+    color: white;
     font-weight: bolder;
 }
-
-
-
-
 
 .box {
     height: 100vh; /* Full height of the viewport */
